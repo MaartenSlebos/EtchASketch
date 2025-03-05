@@ -10,10 +10,6 @@ for (let i = 0; i < 256; i++) {
         square.style.backgroundColor = 'red';
     });
 
-    square.addEventListener('mouseleave' , function() {
-        square.style.backgroundColor = 'black';
-    })
-
     container.append(square)
 }
 
