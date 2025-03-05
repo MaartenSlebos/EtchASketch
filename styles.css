@@ -1,3 +1,6 @@
 .container {
     display: flex;
+    flex-wrap: wrap;
+    width: 430px;
+    gap: 2px;
 }
